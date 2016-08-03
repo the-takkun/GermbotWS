@@ -1,43 +1,177 @@
 * {
-  font: Calibri;
-  border: solid;
-  border-width: thin;
+    font-family: 'Open Sans', sans-serif;
+    border: solid;
+    border-width: thin;
+    max-width: 1024px;
+    margin: auto;
 }
-body{
-  margin: auto;
-  padding: 0;
-  font-size: 15px;
-  max-width: 900px;
+@font-face {
+    font-family: Anders;
+    src: url(C:/Users/Naota/Dropbox/GermbotStudios/Website/GermbotWS/germbot/fonts/Anders.WOFF);
+}
+body {
+    padding: 0;
+    font-size: 15px;
+    max-width: 1024px;
+}
+h1 {
+    font-family: Anders;
+}
+#home {
+    background-image: url(C:/Users/Naota/Dropbox/GermbotStudios/Website/GermbotWS/germbot/images/landing-1024x768.jpg);
+    width: 1024px;
+    height: 768px;
+    max-width: inherit;
+}
+a {
+    color: white;
+    font-family: Anders;
+}
+a:link {
+  text-decoration: none;
 }
 nav {
-  background-color: #333;
-  margin: 10px;
-  padding: 10px;
-  overflow: hidden;
-  text-align: center;
-  max-width: 900px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
 }
 nav ul li {
-  display: inline;
-  padding: 10px;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
 }
-.about {
-  font-size: 16px;
-  color: #0051e5;
-  border: solid;
-  float: left;
-  max-width: 300px;
-  text-align: left;
+#services {
+    text-align: left;
+    max-height: 1500px;
 }
-.projects {
-  font-size: 16px;
-  color: #0051e5;
-  border: solid;
-  float: right;
-  max-width: 300px;
-  text-align: right;
+#services h1 {
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    max-width: 250px;
+    max-height: 100px;
+}
+.whatwedo {
+    font-size: 16px;
+    text-align: left;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 400px;
+}
+.whatwedo h3, p {
+    margin-top: 20px;
+}
+.photo1 {
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.whatwedo2 {
+    font-size: 16px;
+    text-align: right;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+.whatwedo2 h3, p {
+    margin-top: 20px;
+}
+.photo2 {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 .divheader {
-  font-size: 24px;
-  color: black;
+    font-size: 24px;
+    color: black;
+}
+#ourwork {
+    text-align: center;
+    height: 1000px;
+}
+#ourwork h1 {
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    max-width: 250px;
+    max-height: 100px;
+}
+.projects {
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: inline;
+    margin-right: 0px;
+}
+.projects img {
+    background-color: grey;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 30px;
+}
+#ourteam {
+    text-align: center;
+    height: 800px;
+}
+#ourteam h1 {
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    max-width: 250px;
+    max-height: 100px;
+}
+#ourteam article {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.member {
+    display: inline-block;
+    image-resolution: 60px 60px;
+    margin: 20px;
+    margin-top: 300px;
+    text-align: left;
+    padding: 20px;
+    color: white;
+    background-color: darkblue;
+}
+#contactus {
+    text-align: left;
+    height: 600px;
+}
+#contactus h1 {
+    padding-right: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    max-width: 250px;
+    max-height: 100px;
+}
+#contactus p {
+    margin-left: 0px;
+    margin-top: 50px;
+    max-width: 300px;
+}
+footer {
+    text-align: left;
+    padding-left: 10px;
 }
